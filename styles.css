@@ -51,6 +51,9 @@ h1, h2, h3{
 	/* center align the text */
 	/* use a web font here (instructions on page) */
 	/* make the heading text all small caps style */
+	text-align: center;
+	font-family: var(--heading-fonts);
+	font-variant: small-caps;
 }
 
 h2{
@@ -63,6 +66,7 @@ h3{
 	margin: 0;
 	padding: 4px;
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
+	text-decoration: solid underline var(--mint);
 }
 
 nav{
@@ -77,6 +81,7 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
@@ -85,6 +90,11 @@ nav a{
 	/* remove the underline */
 	/* make the font's size 1.2rem */
 	/* make the font bolder (600) */
+	color: var(--dk-gray);
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 nav a:hover{
